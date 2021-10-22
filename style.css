@@ -29,8 +29,8 @@ background-attachment: fixed;
 .tabcontent {
   color: white;
   display: none;
-  padding: 50px 20px;
-  height: 100%;
+  padding: 50px 10px;
+  
 }
 
 #Home,#News,#Contact,#About {
@@ -79,7 +79,7 @@ i {
 .social {
 				display: flex;
 				justify-content: center;
-				border-radius: 7px;
+				border-radius: 5px;
 				box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
 }
 
