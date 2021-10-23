@@ -76,7 +76,7 @@ background-attachment: fixed;
  
 
 i {
-				font-size: 30px;
+				font-size: 35px;
 				color: white;
 }
 
@@ -169,7 +169,7 @@ footer {
 .cont i {
 				font-size: 20px;
 				margin-left: 2px;
-				padding: 10px;
+				padding: 5px 10px;
 				
 }
 
@@ -184,6 +184,10 @@ marquee {
 				flex-direction: column;
 				margin-top: 20px;
 				padding-top: 5px;
+}
+
+.skills i {
+				font-size: 20px;
 }
 
 .progress {
