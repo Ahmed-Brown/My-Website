@@ -33,7 +33,7 @@ background-attachment: fixed;
 .tabcontent {
   color: white;
   display: none;
-  padding: 50px 10px;
+  padding: 50px 5px;
   
 }
 
@@ -78,7 +78,6 @@ background-attachment: fixed;
 i {
 				font-size: 35px;
 				color: white;
-				padding: 0 5px;
 }
 
 .social {
