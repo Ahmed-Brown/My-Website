@@ -78,6 +78,7 @@ background-attachment: fixed;
 i {
 				font-size: 35px;
 				color: white;
+				padding: 0 5px;
 }
 
 .social {
