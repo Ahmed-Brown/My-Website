@@ -21,3 +21,23 @@ function openPage(pageName, elmnt, color) {
 
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
+
+
+
+
+document.onreadystatechange = function() { 
+
+    if (document.readyState !== "complete") { 
+
+        document.querySelector("body").style.visibility = "hidden"; 
+
+        document.querySelector(".spinner-border").style.visibility = "visible"; 
+
+    } else { 
+
+        document.querySelector(".spinner-border").style.display = "none"; 
+
+        document.querySelector("body").style.visibility = "visible"; 
+
+    } 
+}; 
