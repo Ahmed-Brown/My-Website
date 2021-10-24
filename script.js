@@ -31,11 +31,11 @@ document.onreadystatechange = function() {
 
         document.querySelector("body").style.visibility = "hidden"; 
 
-        document.querySelector(".spinner-border").style.visibility = "visible"; 
+        document.querySelector(".lds-dual-ring").style.visibility = "visible"; 
 
     } else { 
 
-        document.querySelector(".spinner-border").style.display = "none"; 
+        document.querySelector(".lds-dual-ring").style.display = "none"; 
 
         document.querySelector("body").style.visibility = "visible"; 
 
