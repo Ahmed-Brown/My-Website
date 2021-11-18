@@ -1,0 +1,15 @@
+.features::before {
+				position: absolute;
+				content: "مميزات التصميم";
+				text-align: center;
+				font-weight: bold;
+				font-size: 20px;
+				top: -40px;
+				border-radius: 3px;
+				display: flex;
+				margin: 0 auto;
+				padding: 5px 20px;
+				border-radius: 7px 7px 0 0;
+				background-color: #212529;
+}
+

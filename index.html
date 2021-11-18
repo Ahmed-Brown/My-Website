@@ -3,44 +3,93 @@
 <head>
 				<meta charset="UTF-8">
 				<meta name="viewport" content="width=device-width, initial-scale=1.0">
-				<link rel="stylesheet" href="style.css"></link>
+				<meta name="Ahmed Brown" content="Ahmed Brown, Ahmed abdalhafeez, Ahmed abd alhafeez, Ahmed website" />
+				<link rel="stylesheet" href="main.css"></link>
 				<link rel="stylesheet" href="bootstrap.css"></link>
+				<link rel="stylesheet" href="mediaQuery.css"></link>
 				<script src="https://kit.fontawesome.com/bfab2eee74.js" crossorigin="anonymous"></script>
 				<link rel="stylesheet" href="vivify.min.css"></link>
-				<title>Ahmed - Web Designer</title>
+				<title>Ahmed - Web Developer</title>
 </head>
 <body>
+				
+				<header>
+  <div class="navbar navbar-dark bg-dark">
+    <div class="container">
+      <a href="index.html" class="navbar-brand d-flex align-items-center">
+        <img class="logo" src="logo.png" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+  </div>
+  <div class="collapse bg-dark" id="navbarHeader">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-md-7 py-4">
+          <h5 class="text-white">About me</h5>
+          <p class="text-muted">I'm Web Developer (Web Pages Designer), Work as Freelancer, All details are described in Contact Page, You can contact me for  more info, Links below.</p>
+          <div class="lang">
+          <a class="btn btn-secondary" href="index.html">English</a>
+          <a class="btn btn-secondary" href="arabic.html">العربية</a>
+          </div>
+        </div>
+        <div class="col-sm-4 offset-md-1 py-4">
+          <ul class="list-unstyled">
+            <li><a class="btn btn-light" href="https://wa.me/249916934150" role="button"><i class="fab fa-whatsapp"></i> WhatsApp</a></li>
+            <li><a class="btn btn-light" href="https://www.facebook.com/AhmedR.tota" role="button"><i class="fab fa-facebook"></i> Facebook</a></li>
+            <li><a class="btn btn-light" href="https://www.instagram.com/a7mad_brown" role="button"><i class="fab fa-instagram"></i> Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+				
 				<div class="nav">
-				<button class="tablink" onclick="openPage('Home', this, '#0083ff')"id="defaultOpen">Home</button>
-<button class="tablink" onclick="openPage('Contact', this, '#0083ff')">Contact</button>
+								<div>
+				<button class="tablink" onclick="openPage('Home', this, '#0d6efd')" id="defaultOpen">Home</button>
+				</div>
+				<div>
+<button class="tablink" onclick="openPage('Contact', this, '#0d6efd')">Contact</button>
+</div>
 </div>
 
-
-
 <div id="Home" class="tabcontent">
-				<div class="card bg-dark fadeInTop duration-1000">
-  <center><img class="meimg popInLeft duration-5000" src="IMG_20210925_210642.jpg" alt="" width="100px" height="100px"></center><br>
-    <p><span>Name:</span> Ahmed Abd Elhafeez</p>
-    <p><span>Country:</span> Sudan</p>
-    <p><span>Date Of Birth:</span> 26/11/1996</p>
-    <p><span>University:</span> University Of El Jazeera</p>
-    <p><span>College:</span> Information Technology</p>
-    <p><span>Graduation Year:</span> 2021</p>
-    <p><span>Skills:</span> Front-end web developer</p>
+  
+				<div class="card info-card bg-dark fadeInTop duration-800">
+								<div class="myimg">
+												<div class="pic-frame"></div>
+  <img class="meimg popIn duration-3000 delay-500" src="me.jpg" alt="" width="100px" height="100px">
+  </div>
+    <p class="name">Ahmed Abd Alhafeez</p>
+    <p>Web Developer</p>
+    <p>(Front-end)</p>
+    <span>Experiences</span>
+    <p>HTML5, CSS3, JavaScript, Bootstrap<br>&<br>Hosting management</p>       
+    <span>Country - Birthday</span>
+    <p>Sudan<br>26/11/1996</p>
     </div>
     <br>
     
-    <div class="social bg-dark shake delay-4000">	
-    				 <a class="btn" href="https://www.facebook.com/AhmedR.tota" role="button"><i class="fab fa-facebook one"></i></a>
-    				 	<a class="btn" href="mailto: a7madbrown@gmail.com" role="button"><i class="fas fa-envelope two"></i></a>
-								<a class="btn" href="https://wa.me/249916934150" role="button"><i class="fab fa-whatsapp three"></i></a>
-								<a class="btn" href="https://t.me/Ahmed_br" role="button"><i class="fab fa-telegram four"></i></a>
-								<a class="btn" href="https://www.instagram.com/a7mad_brown" role="button"><i class="fab fa-instagram five"></i></a>
-								<a class="btn" href="https://discordapp.com/users/759819811768238140" role="button"><i class="fab fa-discord six"></i></a>
-																
+    <div class="social bg-dark shake delay-2000">	
+    				<div>
+    				 <a href="https://www.facebook.com/AhmedR.tota" role="button"><i class="fab fa-facebook one"></i></a></div>
+    				 	<div>    				 
+								<a href="https://wa.me/249916934150" role="button"><i class="fab fa-whatsapp two"></i></a></div>
+								<div>
+								<a href="https://t.me/Ahmed_br" role="button"><i class="fab fa-telegram three"></i></a></div>
+								<div>
+								<a href="https://www.instagram.com/a7mad_brown" role="button"><i class="fab fa-instagram four"></i></a></div>
+								<div>
+								<a class="" href="https://discordapp.com/users/759819811768238140" role="button"><i class="fab fa-discord five"></i></a></div>			
+								<div>
+    				 	<a href="mailto: a7madbrown@gmail.com" role="button"><i class="fas fa-envelope six"></i></a></div>
 				</div>
 				
-    <!-- skills start -->
+				
     <div class="skills card bg-dark">
     		 <h6><i class="fab fa-html5"></i> HTML</h6>
     				<div class="progress"> <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div> </div>
@@ -56,52 +105,102 @@
     				<hr>
     				
     				<h6><i class="fab fa-bootstrap"></i> Bootstrap</h6>
-    				<div class="progress"> <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div> </div>
-    				<h6></h6>
-    				<hr>
-    				
+    				<div class="progress"> <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div> </div>  				
     </div>
-    <marquee width="100%" direction="left" height="">
-Do you want a website for you or your company? a website that suits your needs, a beautiful design and responsive to all devices, contact me for more details
-</marquee>
-    <!-- skills end -->
-</div>
-
-<!-- .............. Contact page................. -->
-
-
-				
-				<div id="Contact" class="tabcontent">							
-				
-				<center><img class="qr swoopInTop" src="frame.png" alt="QR" width="120px" width="135px"></img></center><br><br>
-				
-				<div class="cont driveInBottom">
-				<a href="tel:+249916934150" role="button"><i class="fas fa-phone-alt"></i>Call Now</a>
-				
-				<a href="https://wa.me/249916934150 tel" role="button"><i class="fab fa-whatsapp"></i>Text Me</a>			
-</div>
-				
-				<div class="design card bg-dark">
-								<center><img src="web-design.jpg" width="100%" height="" alt=""></center>
-							<p id="info">Do you want a website for you or your company? a website that suits your needs, a beautiful design and responsive to all devices.</p>
-							<p>Using: HTML5, CSS3, JavaScript, Bootstrap</p>
-							<p id="features">Features :</p>
-							<p>• Responsive design for all screen sizes</p>
-							<p>• Add Animations to pages</p>
-							<p>• Your website will be uploaded to free hosting</p>
-							<p>• Modern and beautiful design</p>
-							<p id="last"> Contact Me For More Details..</p>
+    
+            
+    <div class="works">
+								<div>
+								<a class="btn btn-dark" href="#" role="button" target="_blank"><span>GitHub</span> Workspace</a></div>
+								<div>
+								<a class="btn btn-dark" href="#" role="button" target="_blank"><span>CodePen</span> Examples</a>
+								</div>
 				</div>
-	<footer>
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-    © 2021 Copyright:
-    <a class="text-white" href="#">Ahmed Brown</a>
-  </div>
-  </footer>
+    
+    <marquee width="100%" direction="left" height="">
+Do you want a <span>website</span> for you or your company? a website that suits your needs, a beautiful design and <span>responsive to all devices</span>, contact me for more details
+</marquee>
 </div>
 
-<div class="lds-dual-ring"></div>
 
-<script src="script.js"></script>
+
+<!-- page 2 -->
+
+<div id="Contact" class="tabcontent">
+  	
+				<div class="contactbg bg-dark fadeInTop duration-800">
+				<center><img class="qr" src="frame.png" alt="QR" width="120px" width="135px"></img></center><br>
+				
+				<p>Email: a7madbrown@gmail.com</p>
+				<p>Phone: +249916934150</p>
+				
+				<div class="cont shake delay-1000">
+				<a class="btn btn-outline-light" href="tel:+249916934150" role="button"><i class="fas fa-phone-alt"></i> Call Now</a>
+				
+				<a class="btn btn-outline-light" href="mailto: a7madbrown@gmail.com" role="button"><i class="fas fa-envelope"></i> Mail Me</a>	
+</div>
+</div>
+								
+				<div class="features">
+								<div class="box">
+												<span class="number1">1</span>
+												<h4>Responsive</h4>
+												<p>Responsive design support all screens size such as phones, laptops, tablets, etc..</p>
+								</div>
+								
+								<div class="box">
+												<span class="number2">2</span>
+												<h4>Animations</h4>
+												<p>Add Animations to your pages to look more attractive.</p>
+								</div>
+								
+								<div class="box">
+												<span class="number3">3</span>
+												<h4>Directions</h4>
+												<p>Design pages with multiple direction, LTR, RTL for English & Arabic language.</p>
+								</div>
+								
+								<div class="box">
+												<span class="number4">4</span>
+												<h4>Hosting</h4>
+												<p>Your website will be uploaded to free hosting (Unlimited - No Ads)</p>
+								</div>
+								
+								<div class="box">
+												<span class="number5">5</span>
+												<h4>Extensions</h4>
+												<p>Website include fonts, icons and beautiful colors for  modern design</p>
+								</div>
+								
+								<div class="box">
+												<span class="number6">6</span>
+												<h4>Stability</h4>
+												<p>Setup in a short time with stabile quality without issues</p>
+								</div>
+				</div>
+				
+				<div class="banner"></div>
+				
+</div>
+				
+				<!-- out of container -->
+				
+				<div class="loading">
+								<div class="load-1"></div>
+								<div class="load-2"></div>
+								<div class="load-3"></div>
+								<div class="load-4"></div>
+				</div>
+
+<footer>
+  <div class="copy-right bg-dark text-center text-light">	
+    © 2021 Copyright:
+    <a class="text-decoration-none text-light" href="index.html">Ahmed Brown</a>
+    </div>
+  </footer>
+											
+				<script src="script.js"></script>
+				<script src="bootstrap.bundle.min.js"></script>
+				
 </body>
 </html>
