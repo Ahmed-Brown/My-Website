@@ -2,6 +2,9 @@
 				font-family: 'El Messiri', sans-serif;
 }
 
+.info-card i {
+				vertical-align: baseline;
+}
 
 .features::before {
 				position: absolute;

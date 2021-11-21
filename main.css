@@ -90,25 +90,18 @@ header .lang .btn {
 				font-weight: bold;
 }
 
+.info-card i {
+				vertical-align: text-top;
+}
+
 
 .info-card .name {
 				text-align: center;
 				font-size: 18px;
-				border-bottom: 1px #6a6a6a solid;
 				width: fit-content;
-				margin: 5px auto;
+				margin: 5px auto 10px auto;
 				padding-left: 0;
 				color: #ffeabf;
-}
-
-.info-card p:nth-of-type(2) {
-				font-size: 17px;
-				margin-top: 5px;
-				margin-bottom: 0;
-}
-
-.info-card p:nth-of-type(3) {
-				color: #b8b8b8;
 }
 
 .meimg {
