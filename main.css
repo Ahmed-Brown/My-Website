@@ -280,7 +280,7 @@ header .lang .btn {
 
 .contactbg {
 				padding: 10px 0;
-				margin-bottom: 55px;
+				margin-bottom: 10px;
 				border-radius: 5px;
 				box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
 				position: relative;
@@ -402,19 +402,13 @@ div h6 {
 				}
 }
 
-.features::before {
-				position: absolute;
-				content: "Design Features";
-				text-align: center;
-				font-weight: bold;
-				font-size: 20px;
-				top: -40px;
-				left: 50%;
-				border-radius: 3px;
-				transform: translate(-50%, -50%);
-				padding: 5px 20px;
-				border-radius: 7px 7px 0 0;
+.fhead {
 				background-color: #212529;
+				color: white;
+				padding: 10px 15px;
+				width: fit-content;
+				margin: 0 auto;
+				border-radius: 7px 7px 0 0;
 }
 
 
