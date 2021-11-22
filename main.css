@@ -116,16 +116,6 @@ header .lang .btn {
     padding-top: 5px;
 }
 
-.info-card::before,.contactbg::before {
-				position: absolute;
-				content: "";
-				top: -0.7px;
-				left: 0;
-				width: 100%;
-				height: 2px;	
-				background-image: linear-gradient(30deg, #00adff, #00c2ff);
-}
-
 .pic-frame {
 				content: "";
 				width: 110px;
