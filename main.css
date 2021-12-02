@@ -126,7 +126,7 @@ header .lang .btn {
 				border-radius: 50%;
 				position: absolute;
 				animation-name: pic-frame;
-				animation-duration: 2s;
+				animation-duration: 2.5s;
 				animation-delay: 1s;
 				animation-timing-function: ease-in-out;
 				animation-direction: alternate;
@@ -144,7 +144,7 @@ header .lang .btn {
 
 @keyframes pic-frame {
 				from {
-								transform: rotate(2turn);
+								transform: rotate(1turn);
 				}
 }
 
@@ -300,8 +300,7 @@ marquee span {
 				display: flex;
 				flex-direction: column;
 				margin-top: 20px;
-				padding-top: 5px;
-				padding-bottom: 20px;
+				padding: 10px 0 25px 0;
 				box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
 				margin-bottom: 20px;
 }
@@ -408,7 +407,7 @@ div h6 {
 				grid-auto-rows: auto;
 				gap: 1px;
 				margin-bottom: 10px;
-				box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+				box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);				
 				position: relative;
 				background-color: #626262;
 }
